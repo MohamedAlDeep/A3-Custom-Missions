@@ -1,0 +1,58 @@
+
+//Allow calling verson number from mission functions
+
+respawn = "BASE";
+respawnDelay = 20;
+respawnDialog = 0;
+respawnButton = 1;
+respawnOnStart = -1;
+respawnTemplates[] = { "MenuPosition" };
+onPauseScript = "";
+OnLoadIntro = "Welcome to Red Arrows POW Transport Mission";
+OnLoadIntroTime = 0;
+OnLoadMissionTime = 0;
+
+disabledAI = 1;
+
+enableDebugConsole[] = {
+	"76561198201550691", // Damien
+	"76561198027217867", // psycho
+    "76561199095107005" // Sean
+};
+
+allowFunctionsLog = 1;
+allowFunctionsRecompile = 1;
+joinUnassigned = 1;
+forceRotorLibSimulation = 0;
+saving = 0;
+skipLobby = 0;
+
+showHUD[] =
+{
+	true,	// Scripted HUD (same as showHUD command)
+	true,	// Vehicle + soldier info
+	true,	// Vehicle radar
+	true,	// Vehicle compass
+	true,	// Tank direction indicator
+	true,	// Commanding menu
+	true,	// Group Bar
+	true,	// HUD Weapon Cursors
+	true	// Vehicle display panels
+};
+
+// Enable CBA settings loading
+cba_settings_hasSettingsFile = 1;
+
+class CfgDebriefing
+{
+	class TimedOut
+	{
+		title = "ERROR";
+		subtitle = "Server Timeout";
+		description = "If you see this message please reconnect to deez nutz";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
+
