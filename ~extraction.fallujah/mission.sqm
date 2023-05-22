@@ -20,14 +20,14 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4006.8018,31.990009,5438.2871};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={1837.7118,24.974936,6877.0776};
+		dir[]={0.55987149,-0.48474386,-0.67202181};
+		up[]={0.3102802,0.87465352,-0.37243313};
+		aside[]={-0.76832366,2.6915222e-007,-0.64010078};
 	};
 };
 binarizationWanted=0;
-sourceName="extraction";
+sourceName="~extraction";
 addons[]=
 {
 	"A3_Ui_F",
@@ -79,13 +79,17 @@ addons[]=
 	"A3_Structures_F_EPA_Civ_Constructions",
 	"A3_Structures_F_Tank_Military_Fortifications",
 	"rhs_c_cars",
-	"A3_Modules_F_Intel"
+	"A3_Modules_F_Intel",
+	"A3_Armor_F_Beta_APC_Tracked_01",
+	"ace_realisticnames",
+	"ace_vehicle_damage",
+	"acre_sys_intercom"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=41;
+		items=44;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -353,6 +357,27 @@ class AddonsMetaData
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
+		class Item41
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item42
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item43
+		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
 	};
 };
 dlcs[]=
@@ -396,7 +421,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=240;
+		items=241;
 		class Item0
 		{
 			dataType="Marker";
@@ -12008,6 +12033,21 @@ class Mission
 				};
 				nAttributes=11;
 			};
+		};
+		class Item240
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1842.7639,9.6227283,6851.7539};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=787;
+			type="B_APC_Tracked_01_rcws_F";
 		};
 	};
 	class Connections
