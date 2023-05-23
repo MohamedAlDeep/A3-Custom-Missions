@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=922;
+		nextID=1050;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5748.8315,93.861633,5483.1851};
-		dir[]={-0.52812058,-0.44834071,-0.72123444};
-		up[]={-0.26493835,0.8938145,-0.36181751};
-		aside[]={-0.80687094,5.6857243e-007,0.59082556};
+		pos[]={5668.1572,63.960484,5456.1216};
+		dir[]={-0.21027084,-0.35914478,-0.90931261};
+		up[]={-0.080932118,0.933245,-0.34999254};
+		aside[]={-0.97430879,8.3661871e-007,0.2252994};
 	};
 };
 binarizationWanted=0;
@@ -404,7 +404,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=345;
+		items=438;
 		class Item0
 		{
 			dataType="Marker";
@@ -13707,6 +13707,1502 @@ class Mission
 			};
 			id=921;
 			type="Land_New_WiredFence_10m_F";
+		};
+		class Item345
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5721.6929,8.2138538,5230.8813};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=922;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item346
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5720.5127,8.2138538,5240.8315};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=923;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item347
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5719.3755,8.2138538,5250.7231};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=924;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item348
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5718.2437,8.3294086,5260.7764};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=925;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item349
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5717.0635,8.2138538,5270.7266};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=926;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item350
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5715.9683,8.2138538,5280.5825};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=927;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item351
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5714.8364,8.3294086,5290.6357};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=928;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item352
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5713.6563,8.3294086,5300.5859};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=929;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item353
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5712.4565,8.2138538,5310.5117};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=930;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item354
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5711.3247,8.2138538,5320.5649};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=931;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item355
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5710.1445,8.2138538,5330.5151};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=932;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item356
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5709.0293,8.2138538,5340.1558};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=933;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5707.8975,8.2138538,5350.209};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=934;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item358
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5706.7173,8.2138538,5360.1592};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=935;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item359
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5704.5308,8.2138538,5379.8433};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=936;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item360
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5703.3989,8.2138538,5389.8965};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=937;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item361
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5702.2188,8.2138538,5399.8467};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=938;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item362
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5698.9004,8.2138538,5429.5605};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=939;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item363
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5697.7529,8.2138538,5439.397};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=940;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item364
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5696.5728,8.2138538,5449.3472};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=941;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item365
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5691.8804,8.2138538,5489.2935};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=942;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item366
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5690.7485,8.2138538,5499.3467};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=943;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item367
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5689.5684,8.2138538,5509.2969};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=944;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item368
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5685.377,8.2138538,5545.4204};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=945;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item369
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5684.2451,8.2138538,5555.4736};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=946;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item370
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5688.8013,8.2138538,5515.4902};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=947;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item371
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5687.6694,8.4468861,5525.5435};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=948;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item372
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5686.4893,8.2138538,5535.4937};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=949;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item373
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5695.3486,8.2138538,5459.3672};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=950;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item374
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5694.2168,8.2138538,5469.4204};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=951;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item375
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5693.0366,8.2138538,5479.3706};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=952;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item376
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5701.0972,8.2138538,5409.7695};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=953;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item377
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5699.9819,8.2138538,5419.5967};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=954;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item378
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5705.6069,8.2138538,5370.0532};
+				angles[]={0,1.4586613,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=955;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item379
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5683.0586,8.2138538,5565.0591};
+				angles[]={0,1.4480708,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=956;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item380
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5681.8325,8.2138538,5574.9307};
+				angles[]={0,1.4414585,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=957;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item381
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5553.3589,8.2138538,5202.0215};
+				angles[]={0,4.6128674,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=959;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item382
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5553.7075,8.2138538,5204.3013};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=960;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item383
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5552.416,8.3294086,5214.335};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=961;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item384
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5551.0781,8.6403675,5224.2651};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=962;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item385
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5549.8267,8.8035755,5234.1025};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=963;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item386
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5548.5356,8.3294086,5244.1367};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=964;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item387
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5547.1978,8.3294086,5254.0669};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=965;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=0.11555529;
+		};
+		class Item388
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5545.8403,8.2138538,5263.9722};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=966;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item389
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5544.5493,8.2138538,5274.0063};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=967;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item390
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5543.2114,8.2138538,5283.9365};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=968;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item391
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5541.9434,8.2138538,5293.5581};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=969;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item392
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5540.6519,8.2138538,5303.5923};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=970;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item393
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5539.314,8.2138538,5313.5225};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=971;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item394
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5536.8154,8.2138538,5333.1694};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=972;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item395
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5535.5239,8.2138538,5343.2031};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=973;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item396
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5534.186,8.2138538,5353.1338};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=974;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item397
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5530.3965,8.2138538,5382.791};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=975;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item398
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5529.0933,8.2138538,5392.6079};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=976;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item399
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5527.7554,8.2138538,5402.5381};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=977;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item400
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5522.4292,8.2138538,5442.4048};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=978;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item401
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5521.1382,8.2138538,5452.439};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=979;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item402
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5519.8003,8.2138538,5462.3691};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=980;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item403
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5515.0361,8.559679,5498.4219};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=981;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item404
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5513.3994,8.3643885,5508.4946};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=982;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=2.1934509e-005;
+		};
+		class Item405
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5518.9351,8.2138538,5468.5498};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=983;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item406
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5517.6436,8.2138538,5478.5835};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=984;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item407
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5516.1572,8.2138538,5488.9141};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=985;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item408
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5526.3721,8.2138538,5412.5376};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=986;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item409
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5525.0811,8.2138538,5422.5713};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=987;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item410
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5523.7432,8.2138538,5432.502};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=988;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item411
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5532.9072,8.2138538,5363.0376};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=989;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item412
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5531.6362,8.2138538,5372.8457};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=990;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item413
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5538.0469,8.2138538,5323.3975};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=991;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item414
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5511.9453,8.2138538,5517.8496};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1025;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item415
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5510.4902,8.2628651,5528.3994};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1026;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item416
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5509.1147,8.9484119,5538.2305};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1027;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item417
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5507.9531,8.4611683,5547.5269};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1028;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item418
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5559.1333,8.2138538,5198.0942};
+				angles[]={0,6.1730385,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1029;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item419
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5675.8184,8.2138538,5579.4248};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1030;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item420
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5646.2256,8.2138538,5575.1563};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1031;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item421
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5636.4312,8.2138538,5573.6948};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1032;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item422
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5626.5239,8.2138538,5572.1963};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1033;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item423
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5586.748,8.2138538,5566.2275};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1034;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item424
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5576.7363,8.2138538,5564.7739};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1035;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item425
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5566.8291,8.2138538,5563.2764};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1036;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item426
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5530.8584,8.2997303,5557.9302};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1037;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item427
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5560.6636,8.2138538,5562.311};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1038;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item428
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5550.6509,8.2138538,5560.8579};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1039;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item429
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5540.7441,8.2778797,5559.3599};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1040;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item430
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5616.5479,8.2138538,5570.6523};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1041;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item431
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5606.5361,8.2138538,5569.1992};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1042;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item432
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5596.6284,8.2138538,5567.7012};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1043;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item433
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5665.936,8.2138538,5577.9858};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1044;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item434
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5656.1499,8.5581532,5576.5566};
+				angles[]={0,6.1390252,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1045;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item435
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5521.2041,8.2138538,5556.4263};
+				angles[]={0,6.1180367,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1046;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item436
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5511.3223,8.2138538,5554.8374};
+				angles[]={0,6.1180367,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1047;
+			type="Land_New_WiredFence_10m_F";
+		};
+		class Item437
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5507.7524,8.3342934,5548.7954};
+				angles[]={0,1.4427893,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1048;
+			type="Land_New_WiredFence_10m_F";
+			atlOffset=1.7166138e-005;
 		};
 	};
 	class Connections
