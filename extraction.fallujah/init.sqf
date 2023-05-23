@@ -1,5 +1,1 @@
-// init.sqf
-
-repairAction1 addAction ["Repair,Refuel ", "repair.sqf"];
-
-repairAction1 addAction ["Spawn Heli", "spawn.sqf"];
+[0, nil, apache_spawn_box] execVM "handle_apache.sqf";
