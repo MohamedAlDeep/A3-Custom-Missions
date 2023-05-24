@@ -1,4 +1,18 @@
+# 1.5v
+
+## Added
+
+- Added enemy base that has 2 helis and 3 idk (super BTR)
+
+- Added some triggers and waypoints for the helis that respond when our team continue the checkpoints road (the helis loiter)
+
+- Added C-RAM to the base in case of helis got closer to it 
+
 # 1.4v
+
+## Change
+
+- Changed the radius of the trigger to 500 by 200 by 15 (not sure)
 
 ## Fixed 
 
