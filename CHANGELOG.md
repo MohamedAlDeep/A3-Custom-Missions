@@ -1,3 +1,11 @@
+# 1.4v
+
+## Fixed 
+
+- Fixed the trigger and task issue, so now it is functional 
+
+- Fixed the Apache main pilot and the name so its is called (AH-64 Pilot, AH-64 Gunner)
+
 # 1.3v
 
 ## Finished 
