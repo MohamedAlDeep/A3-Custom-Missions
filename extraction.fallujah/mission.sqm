@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=1156;
+		nextID=1170;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=14;
+		nextID=15;
 	};
 	class Camera
 	{
-		pos[]={320.46442,9.1340828,8769.4395};
-		dir[]={-0.40405884,-0.33616307,-0.85072374};
-		up[]={-0.14422289,0.94180375,-0.30365339};
-		aside[]={-0.90329188,7.4505806e-009,0.42902654};
+		pos[]={790.52972,1048.6141,7621.5225};
+		dir[]={0.41607535,-0.73507327,-0.53534323};
+		up[]={0.45108926,0.67797452,-0.58039403};
+		aside[]={-0.78958535,-1.7072307e-007,-0.61367738};
 	};
 };
 binarizationWanted=0;
@@ -10255,13 +10255,13 @@ class Mission
 		class Item166
 		{
 			dataType="Trigger";
-			position[]={1896.6917,6.9980087,6799.8335};
-			angle=4.0719886;
+			position[]={1896.692,6.9980087,6799.833};
+			angle=4.0719929;
 			class Attributes
 			{
-				sizeA=5;
-				sizeB=5;
-				sizeC=5;
+				sizeA=200;
+				sizeB=380;
+				sizeC=15;
 				activationType="WEST D";
 				activationBy="WEST";
 				isRectangle=1;
@@ -11762,12 +11762,12 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={1122.344,6.9980087,6622.5132};
-			angle=5.3544292;
+			angle=5.3544254;
 			class Attributes
 			{
-				sizeA=5;
-				sizeB=5;
-				sizeC=5;
+				sizeA=200;
+				sizeB=500;
+				sizeC=15;
 				activationType="WEST D";
 				activationBy="WEST";
 				isRectangle=1;

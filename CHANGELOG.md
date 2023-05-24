@@ -1,5 +1,9 @@
 # 1.4v
 
+## Change
+
+- Changed the radius of the trigger to 500 by 200 by 15 (not sure)
+
 ## Fixed 
 
 - Fixed the trigger and task issue, so now it is functional 
