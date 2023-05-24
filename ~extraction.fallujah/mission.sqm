@@ -20,14 +20,14 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={301.13303,33.245522,8744.7686};
-		dir[]={0.4886778,-0.7071991,0.51100373};
-		up[]={0.48878902,0.70698994,0.51112169};
-		aside[]={0.72274369,-6.6342182e-007,-0.69116402};
+		pos[]={1191.0989,50.173889,6698.7651};
+		dir[]={-0.42523494,-0.56303036,-0.70866984};
+		up[]={-0.28970024,0.82642078,-0.48279724};
+		aside[]={-0.85749096,1.8335413e-007,0.51453447};
 	};
 };
 binarizationWanted=0;
-sourceName="extraction";
+sourceName="~extraction";
 addons[]=
 {
 	"A3_Ui_F",
@@ -81,13 +81,17 @@ addons[]=
 	"A3_Modules_F_Intel",
 	"ace_fastroping",
 	"WBK_MeleeMechanics",
-	"Weap_melee_knife"
+	"Weap_melee_knife",
+	"A3_Armor_F_Beta_APC_Wheeled_01",
+	"ace_realisticnames",
+	"ace_vehicle_damage",
+	"acre_sys_intercom"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=43;
+		items=46;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -365,6 +369,27 @@ class AddonsMetaData
 			className="Weap_melee_knife";
 			name="Weap_melee_knife";
 		};
+		class Item43
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item44
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item45
+		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
 	};
 };
 dlcs[]=
@@ -409,7 +434,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=467;
+		items=469;
 		class Item0
 		{
 			dataType="Marker";
@@ -18759,6 +18784,49 @@ class Mission
 			{
 			};
 			id=1137;
+		};
+		class Item467
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1153.1782,9.5293865,6666.9795};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1149;
+			type="B_APC_Wheeled_01_cannon_F";
+		};
+		class Item468
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1156.2535,6.9914474,6668.9971};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=1151;
+					type="B_Soldier_A_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1150;
 		};
 	};
 	class Connections
