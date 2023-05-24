@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=1152;
+		nextID=1156;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={301.13303,33.245522,8744.7686};
-		dir[]={0.4886778,-0.7071991,0.51100373};
-		up[]={0.48878902,0.70698994,0.51112169};
-		aside[]={0.72274369,-6.6342182e-007,-0.69116402};
+		pos[]={320.46442,9.1340828,8769.4395};
+		dir[]={-0.40405884,-0.33616307,-0.85072374};
+		up[]={-0.14422289,0.94180375,-0.30365339};
+		aside[]={-0.90329188,7.4505806e-009,0.42902654};
 	};
 };
 binarizationWanted=0;
@@ -51,20 +51,7 @@ addons[]=
 	"A3_Structures_F_Walls",
 	"rhsusf_c_m11xx",
 	"rhsusf_c_troops",
-	"rhsusf_c_weapons",
 	"ace_compat_rhs_usf3",
-	"rhssaf_c_weapons",
-	"A3_Weapons_F",
-	"acre_main",
-	"VSM_Beards_config",
-	"Survival_Shields",
-	"VSM_Bowman_headsets",
-	"VSM_OGA_Config",
-	"VSM_OGA_Fix",
-	"A3_Weapons_F_Items",
-	"ace_medical_engine",
-	"ace_medical_treatment",
-	"A3_Characters_F",
 	"emr_main",
 	"ace_logistics_wirecutter",
 	"CUP_CAMisc",
@@ -74,7 +61,12 @@ addons[]=
 	"A3_Structures_F_Enoch_Military_Barracks",
 	"rhs_c_troops",
 	"rhs_c_weapons",
+	"A3_Weapons_F",
+	"acre_main",
 	"ace_compat_rhs_afrf3",
+	"A3_Weapons_F_Items",
+	"ace_medical_engine",
+	"ace_medical_treatment",
 	"A3_Structures_F_EPA_Civ_Constructions",
 	"A3_Structures_F_Tank_Military_Fortifications",
 	"rhs_c_cars",
@@ -87,7 +79,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=43;
+		items=35;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -207,160 +199,114 @@ class AddonsMetaData
 		};
 		class Item17
 		{
-			className="rhsusf_c_weapons";
-			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item18
-		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item19
-		{
-			className="rhssaf_c_weapons";
-			name="RHS: SAF Weapons configuration";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item20
-		{
-			className="acre_main";
-			name="ACRE2 - Main";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item21
-		{
-			className="VSM_Beards_config";
-			name="VSM_Beards_config";
-		};
-		class Item22
-		{
-			className="Survival_Shields";
-			name="Survival_Shields";
-		};
-		class Item23
-		{
-			className="VSM_Bowman_headsets";
-			name="VSM_Bowman_headsets";
-		};
-		class Item24
-		{
-			className="VSM_OGA_Config";
-			name="VSM_OGA_Config";
-		};
-		class Item25
-		{
-			className="VSM_OGA_Fix";
-			name="VSM_OGA_Fix";
-		};
-		class Item26
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item27
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item28
-		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item29
+		class Item18
 		{
 			className="emr_main";
 			name="Enhanced Movement Rework";
 			author="Simplex Team";
 			url="https://github.com/SceptreOfficial/Enhanced-Movement-Rework";
 		};
-		class Item30
+		class Item19
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item31
+		class Item20
 		{
 			className="CUP_CAMisc";
 			name="CUP_CAMisc";
 		};
-		class Item32
+		class Item21
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item33
+		class Item22
 		{
 			className="CUP_CABuildings_Misc";
 			name="CUP_CABuildings_Misc";
 		};
-		class Item34
+		class Item23
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item35
+		class Item24
 		{
 			className="rhs_c_troops";
 			name="AFRF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item36
+		class Item25
 		{
 			className="rhs_c_weapons";
 			name="AFRF Weapons Pack";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item37
+		class Item26
+		{
+			className="acre_main";
+			name="ACRE2 - Main";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item27
 		{
 			className="ace_compat_rhs_afrf3";
 			name="ACE3 - RHS AFRF Compatibility";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item38
+		class Item28
+		{
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item29
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item30
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item31
 		{
 			className="rhs_c_cars";
 			name="Tigr vehicles";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item40
+		class Item32
 		{
 			className="ace_fastroping";
 			name="ACE3 - Fastroping";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item41
+		class Item33
 		{
 			className="WBK_MeleeMechanics";
 			name="WBK_MeleeMechanics";
 		};
-		class Item42
+		class Item34
 		{
 			className="Weap_melee_knife";
 			name="Weap_melee_knife";
@@ -376,7 +322,6 @@ dlcs[]=
 	"Oldman",
 	"Enoch",
 	"RHS_USAF",
-	"RHS_SAF",
 	"RHS_AFRF",
 	"weap_melee_knife"
 };
@@ -6277,104 +6222,94 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={318.93942,7.0014391,8766.2129};
+						position[]={317.88199,7.0014391,8765.584};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						description="AH-64 Pilot";
 						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="rhs_weap_m4_carryhandle";
-								firemode="rhs_weap_m4_carryhandle:Single";
-								class primaryMuzzleMag
-								{
-									name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-									ammoLeft=30;
-								};
-							};
-							class handgun
-							{
-								name="rhsusf_weap_m9";
-								class primaryMuzzleMag
-								{
-									name="rhsusf_mag_15Rnd_9x19_FMJ";
-									ammoLeft=15;
-								};
-							};
-							class binocular
-							{
-								name="rhssaf_zrak_rd7j";
-							};
-							class uniform
-							{
-								typeName="VSM_OGA_grey_casual_Camo";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhs_mag_30Rnd_556x45_M855A1_Stanag";
-										count=2;
-										ammoLeft=30;
-									};
-								};
-								class ItemCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-									class Item1
-									{
-										name="rhsusf_patrolcap_ocp";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="V_PlateCarrier2_rgr";
-								isBackpack=0;
-							};
-							class backpack
-							{
-								typeName="Black_Backpack_kitbag";
-								isBackpack=1;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="VSM_beard_3_hair";
-							hmd="Shield_RoadSign_Stop";
-							headgear="VSM_Bowman_cap_Black";
-						};
 					};
-					id=315;
+					id=1154;
 					type="rhsusf_army_ocp_ah64_pilot";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={319.40155,7.0014391,8765.084};
+						position[]={319.25,7.0014391,8765.2021};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						description="AH-64 Gunner";
 						isPlayable=1;
 					};
-					id=316;
-					type="rhsusf_army_ocp_ah64_pilot";
+					id=1155;
+					type="rhsusf_army_ocp_helipilot";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
