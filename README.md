@@ -6,4 +6,4 @@ This repository contains files of the missions we host.
 
 # Join 
 
-<b><a href=" https://discord.gg/TXzcwJzs8f">Discord<a/><b>
+[Discord](https://discord.gg/TXzcwJzs8f)
